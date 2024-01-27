@@ -2,49 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Your Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Trygve</title>
 </head>
+
 <body>
-    <header>
-        <div class="container">
-            <h1>Your Name</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#resume">Resume</a></li>
-                </ul>
-            </nav>
-        </div>
+
+    <header class="header">
+       <a href="#" class="logo">T. M. Bechsgaard</a>
+
+       <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Cantact</a>
+       </nav>
     </header>
 
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <!-- Your LinkedIn profile content goes here -->
+    <section class="home">
+        <div class="home-image">
+            <img src="TrygveProfileCrop.png" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi, I'm Trygve Bechsgaard</h1>
+            <h3>FullStack Developer</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Nunc a sodales tellus. Sed venenatis magna ac elementum porttitor. 
+                Phasellus mollis arcu lacus, at sollicitudin nulla ultrices sit amet. Pellentesque vitae molestie elit, non gravida nunc. Phasellus pretium nunc commodo eros commodo, in convallis mi accumsan.
+                Sed quis feugiat lacus. Fusce.</p>
+
+                <div class="home-sci">
+                    <a href="https://github.com/Trygvemb" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://au.linkedin.com/in/trygve-bechsgaard-8403301a0" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                </div>
+                <a href="#" class="btn">Download CV</a>
         </div>
     </section>
 
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <!-- Your projects content goes here -->
-        </div>
-    </section>
 
-    <section id="resume">
-        <div class="container">
-            <h2>Resume</h2>
-            <!-- Your resume content goes here -->
-        </div>
-    </section>
 
     <footer>
         <div class="container">
             <p>&copy; 2024 Your Portfolio. All rights reserved.</p>
         </div>
     </footer>
+
 </body>
+
 </html>
