@@ -12,8 +12,8 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
-    background: transparent;
+    padding: 5px 10%;
+    background: linear-gradient(#fff, #0000);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,6 +41,8 @@
     color: #00abf0;
 }
 
+/* Home Section */
+
 .home {
     height: 100vh;
     background: linear-gradient(-90deg,  #031540 65%, #fff 35%);
@@ -62,10 +64,11 @@
     outline: 25px solid;
 }
 
-.home-image img{
+.home-image img {
     position: relative;
     bottom: 22px;
-    max-width: 400px;
+    max-width: 380px;
+    border-radius: 50%;
 }
 
 .home-content{
@@ -149,3 +152,14 @@
 .btn:hover {
 box-shadow: none;
 }
+
+/* About Section */
+
+
+/* Portfolio Section */
+
+
+/* Contact Section */
+
+
+/* Footer Section */
