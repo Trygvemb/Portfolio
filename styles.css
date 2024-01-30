@@ -172,6 +172,19 @@ box-shadow: none;
 
 /* Portfolio Section */
 
+.portfolio-video{
+    width: 30%;
+}
+
+.portfolio-content{
+    display: flex;
+    max-width: 65%;
+    color: #fff;
+}
+
+.portfolio-content div{
+    margin: 10px;
+}
 
 /* Contact Section */
 
